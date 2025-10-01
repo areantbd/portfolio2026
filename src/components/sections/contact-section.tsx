@@ -35,7 +35,7 @@ export default function ContactSection() {
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline">
-                        <Link href="https://www.linkedin.com/in/ivanwebdev" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://drive.google.com/file/d/1HbKfcokbqLTjpUiVCqBqK64N51CCjA-z/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                             <FileUser className="mr-2 h-5 w-5" /> {content.contact.cv}
                         </Link>
                     </Button>

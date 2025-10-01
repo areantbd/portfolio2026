@@ -20,17 +20,17 @@ export default function ContactSection() {
                 </div>
                 <div className="flex flex-col gap-4 sm:flex-row">
                     <Button asChild size="lg">
-                        <Link href="mailto:ivan.rdg@example.com">
+                        <Link href="mailto:areantbd@gmail.com">
                             <Mail className="mr-2 h-5 w-5" /> {content.contact.email}
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline">
-                        <Link href="https://github.com/ivan-rdg" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://github.com/areantbd" target="_blank" rel="noopener noreferrer">
                             <Github className="mr-2 h-5 w-5" /> {content.contact.github}
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline">
-                        <Link href="https://linkedin.com/in/ivan-rdg" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://www.linkedin.com/in/ivanwebdev" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="mr-2 h-5 w-5" /> {content.contact.linkedin}
                         </Link>
                     </Button>

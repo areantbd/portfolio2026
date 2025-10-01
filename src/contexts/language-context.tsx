@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState, ReactNode, useMemo } from '
 import type { PortfolioData } from '@/lib/content';
 import { portfolioData } from '@/lib/content';
 
-export type Language = "en" | "es";
+export type Language = "en" | "es" | "gal";
 
 interface LanguageContextType {
     language: Language;
@@ -14,7 +14,7 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-    const [language, setLanguage] = useState<Language>("en");
+    const [language, setLanguage] = useState<Language>("gal");
 
     const value = useMemo(() => {
         const content = portfolioData[language];

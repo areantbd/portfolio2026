@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 
 export default function HeroSection() {
     const { content } = useLanguage();
-    const profileImage = PlaceHolderImages.find(p => p.id === 'profile-avatar');
+    const profileImage = '/profile.jpg';
 
     return (
         <section id="about" className="w-full py-20 md:py-32 bg-card">
@@ -32,12 +32,12 @@ export default function HeroSection() {
                                 <div className="flex justify-center">
                                     {profileImage && (
                                         <Image
-                                            src={profileImage.imageUrl}
+                                            src={profileImage}
                                             alt={content.name}
                                             width={150}
                                             height={150}
                                             className="rounded-full border-4 border-primary shadow-lg"
-                                            data-ai-hint={profileImage.imageHint}
+                                            data-ai-hint={profileImage}
                                         />
                                     )}
                                 </div>

@@ -37,6 +37,12 @@ export function LanguageSwitcher() {
         >
           Español
         </DropdownMenuItem>
+        <DropdownMenuItem 
+          onClick={() => handleLanguageChange('gal')}
+          disabled={language === 'gal'}
+        >
+          Galego
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

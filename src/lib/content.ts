@@ -2,7 +2,7 @@ export const portfolioData = {
     en: {
         name: "Iván Rodríguez",
         role: "FullStack Developer",
-        location: "Madrid, Spain",
+        location: "Vigo, Spain",
         
         nav: {
             about: "About",
@@ -38,7 +38,7 @@ export const portfolioData = {
         },
 
         footer: {
-            seo: "FullStack Developer Madrid | React | JavaScript | TypeScript | MongoDB | SQL | NextJS"
+            seo: "FullStack Developer Vigo | React | JavaScript | TypeScript | MongoDB | SQL | NextJS"
         },
 
         projectList: [
@@ -63,7 +63,7 @@ export const portfolioData = {
     es: {
         name: "Iván Rodríguez",
         role: "Desarrollador FullStack",
-        location: "Madrid, España",
+        location: "Vigo, España",
 
         nav: {
             about: "Sobre mí",
@@ -99,12 +99,73 @@ export const portfolioData = {
         },
         
         footer: {
-            seo: "Desarrollador FullStack Madrid | React | JavaScript | TypeScript | MongoDB | SQL | NextJS"
+            seo: "Desarrollador FullStack Vigo | React | JavaScript | TypeScript | MongoDB | SQL | NextJS"
         },
 
         projectList: [
             { id: "p1", title: "Colección de Ejercicios de Angular", description: "Una colección de ejercicios y pequeños proyectos desarrollados durante mi fase inicial de aprendizaje con Angular.", tech: ["Angular", "TypeScript", "HTML", "CSS"] },
             { id: "p2", title: "App del Tiempo", description: "Una aplicación web que proporciona pronósticos meteorológicos en tiempo real para cualquier ciudad del mundo utilizando una API pública.", tech: ["React", "JavaScript", "REST API"] },
+            { id: "p3", title: "ICash", description: "Una aplicación de gestión de finanzas personales para realizar un seguimiento de los ingresos y gastos, con visualización de datos.", tech: ["React", "Node.js", "MongoDB", "Express"] },
+            { id: "p4", title: "Rick & Morty Pedia", description: "Una divertida enciclopedia de personajes, lugares y episodios de Rick y Morty utilizando la API de Rick y Morty.", tech: ["React", "NextJS", "TypeScript", "GraphQL"] },
+            { id: "p5", title: "Shipping Bids", description: "Una plataforma para pujar por servicios de envío, conectando a transportistas con clientes que necesitan transportar mercancías.", tech: ["React", "Node.js", "Socket.io", "PostgreSQL"] },
+            { id: "p6", title: "TvTracker", description: "Una aplicación para realizar un seguimiento de las series y películas que has visto y descubrir nuevas.", tech: ["NextJS", "TypeScript", "Firebase"] },
+            { id: "p7", title: "Scuba Diver", description: "Un blog y sitio de información para entusiastas del buceo, con registros de inmersión y guías de lugares.", tech: ["React", "Material UI", "Contentful"] }
+        ],
+
+        certificationList: [
+            { name: "Desarrollador JavaScript Certificado", authority: "Code Academy" },
+            { name: "React - La Guía Completa", authority: "Udemy" },
+            { name: "Node.js, Express, MongoDB y más", authority: "Udemy" },
+            { name: "Desarrollo Web Full-Stack", authority: "FreeCodeCamp" }
+        ],
+        
+        skillList: ["React", "JavaScript", "TypeScript", "MongoDB", "SQL", "Camunda", "Knex", "NextJS", "Material UI (MUI)", "Node.js", "HTML5", "CSS3", "Git", "Docker"]
+    },
+    gal: {
+        name: "Iván Rodríguez",
+        role: "Desenvolvedor FullStack",
+        location: "Vigo, España",
+
+        nav: {
+            about: "Sobre min",
+            projects: "Proxectos",
+            skills: "Habilidades",
+            contact: "Contacto"
+        },
+
+        profile: {
+            title: "Sobre Min",
+            summary: "Desenvolvedor/a full-stack con experiencia na creación de aplicacións web modernas e eficientes. Actualmente traballo en Enovam, onde contribúo ao desenvolvemento de solucións robustas e escalables. A miña principal especialización reside no ecosistema JavaScript, empregando tecnoloxías como React, TypeScript e Next.js para o frontend e Node.js para o backend. Teño unha sólida experiencia con bases de datos SQL (PostgreSQL) e NoSQL (MongoDB), e son competente na orquestración de procesos con Camunda e na xestión de datos con Knex. Apaixónanme a aprendizaxe continua e sempre estou buscando novos retos para crecer profesionalmente.",
+            skillsTitle: "Habilidades Clave"
+        },
+        
+        projects: {
+            title: "Proxectos Destacados",
+            viewCode: "Ver Código",
+            techUsed: "Tecnoloxías utilizadas:"
+        },
+
+        skills: {
+            title: "Habilidades e Certificacións",
+            certificationsTitle: "Certificacións",
+            skillsTitle: "Tecnoloxías"
+        },
+
+        contact: {
+            title: "Contacto",
+            description: "Sempre estou aberto a discutir novos proxectos, ideas creativas ou oportunidades para ser parte da túa visión. No dubides en contactarme.",
+            email: "Envíame un Correo",
+            github: "GitHub",
+            linkedin: "LinkedIn"
+        },
+        
+        footer: {
+            seo: "Desenvolvedor FullStack Vigo | React | JavaScript | TypeScript | MongoDB | SQL | NextJS"
+        },
+
+        projectList: [
+            { id: "p1", title: "Colección de Exercicios de Angular", description: "Una colección de ejercicios y pequeños proyectos desarrollados durante mi fase inicial de aprendizaje con Angular.", tech: ["Angular", "TypeScript", "HTML", "CSS"] },
+            { id: "p2", title: "App deo Tiempo", description: "Una aplicación web que proporciona pronósticos meteorológicos en tiempo real para cualquier ciudad del mundo utilizando una API pública.", tech: ["React", "JavaScript", "REST API"] },
             { id: "p3", title: "ICash", description: "Una aplicación de gestión de finanzas personales para realizar un seguimiento de los ingresos y gastos, con visualización de datos.", tech: ["React", "Node.js", "MongoDB", "Express"] },
             { id: "p4", title: "Rick & Morty Pedia", description: "Una divertida enciclopedia de personajes, lugares y episodios de Rick y Morty utilizando la API de Rick y Morty.", tech: ["React", "NextJS", "TypeScript", "GraphQL"] },
             { id: "p5", title: "Shipping Bids", description: "Una plataforma para pujar por servicios de envío, conectando a transportistas con clientes que necesitan transportar mercancías.", tech: ["React", "Node.js", "Socket.io", "PostgreSQL"] },

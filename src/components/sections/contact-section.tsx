@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Github, Linkedin, FileUser } from 'lucide-react';
 import { useLanguage } from '@/contexts/language-context';
 import { Button } from '@/components/ui/button';
 
@@ -14,7 +14,7 @@ export default function ContactSection() {
                     <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
                         {content.contact.title}
                     </h2>
-                    <p className="text-muted-foreground md:text-xl">
+                    <p className="text-muted-foreground md:text-xl whitespace-pre-line">
                         {content.contact.description}
                     </p>
                 </div>
@@ -32,6 +32,11 @@ export default function ContactSection() {
                     <Button asChild size="lg" variant="outline">
                         <Link href="https://www.linkedin.com/in/ivanwebdev" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="mr-2 h-5 w-5" /> {content.contact.linkedin}
+                        </Link>
+                    </Button>
+                    <Button asChild size="lg" variant="outline">
+                        <Link href="https://www.linkedin.com/in/ivanwebdev" target="_blank" rel="noopener noreferrer">
+                            <FileUser className="mr-2 h-5 w-5" /> {content.contact.cv}
                         </Link>
                     </Button>
                 </div>

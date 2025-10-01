@@ -13,7 +13,7 @@ export const portfolioData = {
         
         profile: {
             title: "About Me",
-            summary: "FullStack Developer with experience in creating modern and efficient web applications. Currently working at Enovam, where I contribute to the development of robust and scalable solutions. My main expertise lies in the JavaScript ecosystem, using technologies like React, TypeScript, and Next.js for the frontend, and Node.js for the backend. I have solid experience with both SQL (PostgreSQL) and NoSQL (MongoDB) databases, and I am proficient in process orchestration with Camunda and data management with Knex. I am passionate about continuous learning and always looking for new challenges to grow professionally.",
+            summary: "FullStack Developer with experience in creating modern and efficient web applications. Currently working at Enovam, where I contribute to the development of robust and scalable solutions. My main expertise lies in the JavaScript ecosystem, using technologies like React for the frontend and Next.js for the backend, both with TypeScript. I have solid experience with both SQL (PostgreSQL) and NoSQL (MongoDB) databases, and I am proficient in process orchestration with Camunda and data management with Knex. I am passionate about continuous learning and always looking for new challenges to grow professionally.",
             skillsTitle: "Key Skills"
         },
         
@@ -31,10 +31,11 @@ export const portfolioData = {
 
         contact: {
             title: "Get in Touch",
-            description: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out to me.",
+            description: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. \nFeel free to reach out to me.",
             email: "Email Me",
             github: "GitHub",
-            linkedin: "LinkedIn"
+            linkedin: "LinkedIn",
+            cv: "Download CV"
         },
 
         footer: {
@@ -74,7 +75,7 @@ export const portfolioData = {
 
         profile: {
             title: "Sobre Mí",
-            summary: "Desarrollador FullStack con experiencia en la creación de aplicaciones web modernas y eficientes. Actualmente trabajo en Enovam, donde contribuyo al desarrollo de soluciones robustas y escalables. Mi principal especialidad se encuentra en el ecosistema de JavaScript, utilizando tecnologías como React, TypeScript y Next.js para el frontend, y Node.js para el backend. Tengo experiencia sólida con bases de datos tanto SQL (PostgreSQL) como NoSQL (MongoDB), y soy competente en la orquestación de procesos con Camunda y la gestión de datos con Knex. Me apasiona el aprendizaje continuo y siempre estoy en busca de nuevos desafíos para crecer profesionalmente.",
+            summary: "Desarrollador FullStack con experiencia en la creación de aplicaciones web modernas y eficientes. Actualmente trabajo en Enovam, donde contribuyo al desarrollo de soluciones robustas y escalables. Mi principal especialidad se encuentra en el ecosistema de JavaScript, utilizando tecnologías como React para el frontend, y Next.js para el backend, ambos con TypeScript. Tengo experiencia sólida con bases de datos tanto SQL (PostgreSQL) como NoSQL (MongoDB), y soy competente en la orquestación de procesos con Camunda y la gestión de datos con Knex. Me apasiona el aprendizaje continuo y siempre estoy en busca de nuevos desafíos para crecer profesionalmente.",
             skillsTitle: "Habilidades Clave"
         },
         
@@ -92,10 +93,11 @@ export const portfolioData = {
 
         contact: {
             title: "Contacto",
-            description: "Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tu visión. No dudes en contactarme.",
+            description: "Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tu visión. \nNo dudes en contactarme.",
             email: "Envíame un Correo",
             github: "GitHub",
-            linkedin: "LinkedIn"
+            linkedin: "LinkedIn",
+            cv: "Descargar CV"
         },
         
         footer: {
@@ -135,7 +137,7 @@ export const portfolioData = {
 
         profile: {
             title: "Sobre Min",
-            summary: "Desenvolvedor/a full-stack con experiencia na creación de aplicacións web modernas e eficientes. Actualmente traballo en Enovam, onde contribúo ao desenvolvemento de solucións robustas e escalables. A miña principal especialización reside no ecosistema JavaScript, empregando tecnoloxías como React, TypeScript e Next.js para o frontend e Node.js para o backend. Teño unha sólida experiencia con bases de datos SQL (PostgreSQL) e NoSQL (MongoDB), e son competente na orquestración de procesos con Camunda e na xestión de datos con Knex. Apaixónanme a aprendizaxe continua e sempre estou buscando novos retos para crecer profesionalmente.",
+            summary: "Desenvolvedor/a full-stack con experiencia na creación de aplicacións web modernas e eficientes. Actualmente traballo en Enovam, onde contribúo ao desenvolvemento de solucións robustas e escalables. A miña principal especialización reside no ecosistema JavaScript, empregando tecnoloxías como React para o frontend e Next.js para o backend, ambos con TypeScript. Teño unha sólida experiencia con bases de datos SQL (PostgreSQL) e NoSQL (MongoDB), e son competente na orquestración de procesos con Camunda e na xestión de datos con Knex. Apaixónanme a aprendizaxe continua e sempre estou buscando novos retos para crecer profesionalmente.",
             skillsTitle: "Habilidades Clave"
         },
         
@@ -153,10 +155,11 @@ export const portfolioData = {
 
         contact: {
             title: "Contacto",
-            description: "Sempre estou aberto a discutir novos proxectos, ideas creativas ou oportunidades para ser parte da túa visión. No dubides en contactarme.",
+                description: "Sempre estou aberto a discutir novos proxectos, ideas creativas ou oportunidades para ser parte da túa visión.\nNon dubides en contactarme.",
             email: "Envíame un Correo",
             github: "GitHub",
-            linkedin: "LinkedIn"
+            linkedin: "LinkedIn",
+            cv: "Descargar CV"
         },
         
         footer: {

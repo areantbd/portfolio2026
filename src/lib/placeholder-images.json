@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-avatar",
+      "description": "Professional avatar for Iván Rodríguez",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNjA1ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "project-p1",
+      "description": "Placeholder for Angular Exercise Collection",
+      "imageUrl": "https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2RlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzU5MjUyMDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code abstract"
+    },
+    {
+      "id": "project-p2",
+      "description": "Placeholder for Weather App",
+      "imageUrl": "https://images.unsplash.com/photo-1552081010-c348b474bbdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWF0aGVyJTIwc2t5fGVufDB8fHx8MTc1OTMyNzYzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "weather sky"
+    },
+    {
+      "id": "project-p3",
+      "description": "Placeholder for ICash app",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1579225818168-858da8667fae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmaW5hbmNlJTIwY2hhcnR8ZW58MHx8fHwxNzU5Mjg3MTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance chart"
+    },
+    {
+      "id": "project-p4",
+      "description": "Placeholder for Rick & Morty Pedia",
+      "imageUrl": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnYWxheHklMjBzcGFjZXxlbnwwfHx8fDE3NTkyOTY3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "galaxy space"
+    },
+    {
+      "id": "project-p5",
+      "description": "Placeholder for Shipping Bids",
+      "imageUrl": "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXJnbyUyMHNoaXB8ZW58MHx8fHwxNzU5MjQ2OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cargo ship"
+    },
+    {
+      "id": "project-p6",
+      "description": "Placeholder for TvTracker",
+      "imageUrl": "https://images.unsplash.com/photo-1502033491742-0e11fb057e16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb3ZpZSUyMHNjcmVlbnxlbnwwfHx8fDE3NTkyOTcxMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "movie screen"
+    },
+    {
+      "id": "project-p7",
+      "description": "Placeholder for Scuba Diver",
+      "imageUrl": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx1bmRlcndhdGVyJTIwY29yYWx8ZW58MHx8fHwxNzU5Mjk1MTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "underwater coral"
+    }
+  ]
 }

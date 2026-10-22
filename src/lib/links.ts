@@ -2,6 +2,7 @@ export const linksData = {
   email: "areantbd@gmail.com",
   github: "https://github.com/areantbd",
   linkedin: "https://www.linkedin.com/in/ivanwebdev/",
+  cv: "https://drive.google.com/file/d/1HbKfcokbqLTjpUiVCqBqK64N51CCjA-z/view?usp=drive_link",
   // portfolio: "https://ivanrf.netlify.app/",
   projects: [
     {

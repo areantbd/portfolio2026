@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 
 export default function HeroSection() {
     const { content } = useLanguage();
-    const profileImage = '/profile.jpg';
+    const profileImage = '/images/profile.jpg';
 
     return (
         <section id="about" className="w-full py-20 md:py-32 bg-card">
@@ -37,7 +37,6 @@ export default function HeroSection() {
                                             width={150}
                                             height={150}
                                             className="rounded-full border-4 border-primary shadow-lg"
-                                            data-ai-hint={profileImage}
                                         />
                                     )}
                                 </div>

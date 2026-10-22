@@ -8,7 +8,7 @@ export default function SkillsSection() {
     const { content } = useLanguage();
 
     return (
-        <section id="skills" className="w-full py-20 md:py-32 bg-card">
+        <section id="skills" className="w-full py-12 md:py-32 bg-card">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
                     <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">

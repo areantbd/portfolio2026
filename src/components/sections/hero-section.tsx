@@ -10,7 +10,7 @@ export default function HeroSection() {
     const profileImage = '/images/profile.jpg';
 
     return (
-        <section id="about" className="w-full py-20 md:py-32 bg-card">
+        <section id="about" className="w-full py-12 md:py-32 bg-card">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="grid gap-10 lg:grid-cols-2">
                     <div className="flex flex-col justify-center space-y-4">
@@ -26,7 +26,7 @@ export default function HeroSection() {
                             {content.profile.summary}
                         </p>
                     </div>
-                    <div className="flex items-center justify-center">
+                    <div className="order-first flex items-center justify-center lg:order-none">
                         <Card className="w-full max-w-md">
                             <CardHeader>
                                 <div className="flex justify-center">

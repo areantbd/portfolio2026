@@ -9,7 +9,7 @@ export default function ContactSection() {
     const { content } = useLanguage();
 
     return (
-        <section id="contact" className="w-full py-20 md:py-32">
+        <section id="contact" className="w-full py-12 md:py-32">
             <div className="container mx-auto flex max-w-2xl flex-col items-center justify-center space-y-4 px-4 text-center md:px-6">
                 <div className="space-y-2">
                     <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -19,7 +19,7 @@ export default function ContactSection() {
                         {content.contact.description}
                     </p>
                 </div>
-                <div className="flex flex-col gap-4 sm:flex-row">
+                <div className="flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
                     <Button asChild size="lg">
                         <Link href={`mailto:${linksData.email}`}>
                             <Mail className="mr-2 h-5 w-5" /> {content.contact.email}

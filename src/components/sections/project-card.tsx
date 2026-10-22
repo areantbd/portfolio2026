@@ -20,12 +20,6 @@ type Project = {
   title: string;
   description: string;
   tech: string[];
-  image?: {
-    id: string;
-    description: string;
-    imageHint: string;
-    imageUrl: string;
-  };
 };
 
 interface ProjectCardProps {
@@ -39,13 +33,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
   );
   const projectLink = linksData.projects.find((p) => p.id === project.id);
 
-  console.log("project.image", projectImage);
   return (
     <Card className="flex h-full flex-col overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50">
       {projectImage && (
         <div className="relative h-48 w-full">
           <Image
-            src={projectLink?.image ?? projectImage.imageUrl} //project.image ??
+            src={projectLink?.image ?? projectImage.imageUrl}
             alt={project.title}
             fill
             style={{ objectFit: "cover" }}

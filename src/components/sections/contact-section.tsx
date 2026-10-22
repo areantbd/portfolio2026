@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Mail, Github, Linkedin, FileUser } from 'lucide-react';
 import { useLanguage } from '@/contexts/language-context';
 import { Button } from '@/components/ui/button';
+import { linksData } from '@/lib/links';
 
 export default function ContactSection() {
     const { content } = useLanguage();
@@ -20,22 +21,22 @@ export default function ContactSection() {
                 </div>
                 <div className="flex flex-col gap-4 sm:flex-row">
                     <Button asChild size="lg">
-                        <Link href="mailto:areantbd@gmail.com">
+                        <Link href={`mailto:${linksData.email}`}>
                             <Mail className="mr-2 h-5 w-5" /> {content.contact.email}
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline">
-                        <Link href="https://github.com/areantbd" target="_blank" rel="noopener noreferrer">
+                        <Link href={linksData.github} target="_blank" rel="noopener noreferrer">
                             <Github className="mr-2 h-5 w-5" /> {content.contact.github}
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline">
-                        <Link href="https://www.linkedin.com/in/ivanwebdev" target="_blank" rel="noopener noreferrer">
+                        <Link href={linksData.linkedin} target="_blank" rel="noopener noreferrer">
                             <Linkedin className="mr-2 h-5 w-5" /> {content.contact.linkedin}
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline">
-                        <Link href="https://drive.google.com/file/d/1HbKfcokbqLTjpUiVCqBqK64N51CCjA-z/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                        <Link href={linksData.cv} target="_blank" rel="noopener noreferrer">
                             <FileUser className="mr-2 h-5 w-5" /> {content.contact.cv}
                         </Link>
                     </Button>

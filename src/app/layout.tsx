@@ -7,8 +7,15 @@ import { LangSetter } from '@/components/lang-setter';
 
 export const metadata: Metadata = {
   title: 'Iván Rodríguez - FullStack Portfolio',
-  description: 'Iván Rodríguez\'s portfolio. FullStack Developer based in Madrid, specializing in React, JavaScript, TypeScript, MongoDB, SQL, and NextJS.',
-  keywords: ['FullStack Developer Madrid', 'React', 'JavaScript', 'TypeScript', 'MongoDB', 'SQL', 'NextJS', 'Portfolio'],
+  description: 'Iván Rodríguez\'s portfolio. FullStack Developer based in Vigo, specializing in React, JavaScript, TypeScript, MongoDB, SQL, and NextJS.',
+  keywords: ['FullStack Developer Vigo', 'Desarrollador FullStack Vigo', 'React', 'JavaScript', 'TypeScript', 'MongoDB', 'SQL', 'NextJS', 'Portfolio'],
+  authors: [{ name: 'Iván Rodríguez', url: 'https://github.com/areantbd' }],
+  openGraph: {
+    type: 'website',
+    title: 'Iván Rodríguez - FullStack Portfolio',
+    description: 'FullStack Developer based in Vigo, specializing in React, Next.js, TypeScript, MongoDB and SQL.',
+    images: ['/images/profile.jpg'],
+  },
 };
 
 export default function RootLayout({

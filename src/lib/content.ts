@@ -43,6 +43,7 @@ export const portfolioData = {
 
     footer: {
       seo: "FullStack Developer Vigo | React | JavaScript | TypeScript | MongoDB | SQL | NextJS",
+      rights: "All rights reserved.",
     },
 
     projectList: [
@@ -52,8 +53,6 @@ export const portfolioData = {
         description:
           "A collection of exercises and small projects developed during my initial learning phase with Angular.",
         tech: ["Angular", "TypeScript", "HTML", "CSS"],
-        image:
-          "https://ivanrf.netlify.app/static/media/angular1.7c7a0189b70424d52223.png",
       },
       {
         id: "p2",
@@ -167,6 +166,7 @@ export const portfolioData = {
 
     footer: {
       seo: "Desarrollador FullStack Vigo | React | JavaScript | TypeScript | MongoDB | SQL | NextJS",
+      rights: "Todos los derechos reservados.",
     },
 
     projectList: [
@@ -176,8 +176,6 @@ export const portfolioData = {
         description:
           "Una colección de ejercicios y pequeños proyectos desarrollados durante mi fase inicial de aprendizaje con Angular.",
         tech: ["Angular", "TypeScript", "HTML", "CSS"],
-        image:
-          "https://ivanrf.netlify.app/static/media/angular1.7c7a0189b70424d52223.png",
       },
       {
         id: "p2",
@@ -294,6 +292,7 @@ export const portfolioData = {
 
     footer: {
       seo: "Desenvolvedor FullStack Vigo | React | JavaScript | TypeScript | MongoDB | SQL | NextJS",
+      rights: "Todos os dereitos reservados.",
     },
 
     projectList: [
@@ -301,68 +300,61 @@ export const portfolioData = {
         id: "p1",
         title: "Colección de Exercicios de Angular",
         description:
-          "Una colección de ejercicios y pequeños proyectos desarrollados durante mi fase inicial de aprendizaje con Angular.",
+          "Unha colección de exercicios e pequenos proxectos desenvolvidos durante a miña fase inicial de aprendizaxe con Angular.",
         tech: ["Angular", "TypeScript", "HTML", "CSS"],
-        image: {
-          description: "Angular logo",
-          id: "p1",
-          imageHint: "Logo de Angular",
-          imageUrl:
-            "https://ivanrf.netlify.app/static/media/angular1.7c7a0189b70424d52223.png",
-        },
       },
       {
         id: "p2",
-        title: "App deo Tiempo",
+        title: "App do Tempo",
         description:
-          "Una aplicación web que proporciona pronósticos meteorológicos en tiempo real para cualquier ciudad del mundo utilizando una API pública.",
+          "Unha aplicación web que ofrece previsións meteorolóxicas en tempo real para calquera cidade do mundo empregando unha API pública.",
         tech: ["React", "JavaScript", "REST API"],
       },
       {
         id: "p3",
         title: "ICash",
         description:
-          "Una aplicación de gestión de finanzas personales para realizar un seguimiento de los ingresos y gastos, con visualización de datos.",
+          "Unha aplicación de xestión de finanzas persoais para facer seguimento de ingresos e gastos, con visualización de datos.",
         tech: ["React", "Node.js", "MongoDB", "Express"],
       },
       {
         id: "p4",
         title: "Rick & Morty Pedia",
         description:
-          "Una divertida enciclopedia de personajes, lugares y episodios de Rick y Morty utilizando la API de Rick y Morty.",
+          "Unha divertida enciclopedia de personaxes, lugares e episodios de Rick e Morty empregando a API de Rick e Morty.",
         tech: ["React", "NextJS", "TypeScript", "GraphQL"],
       },
       {
         id: "p5",
         title: "Shipping Bids",
         description:
-          "Una plataforma para pujar por servicios de envío, conectando a transportistas con clientes que necesitan transportar mercancías.",
+          "Unha plataforma para poxar por servizos de envío, que conecta transportistas con clientes que precisan transportar mercadorías.",
         tech: ["React", "Node.js", "Socket.io", "PostgreSQL"],
       },
       {
         id: "p6",
         title: "TvTracker",
         description:
-          "Una aplicación para realizar un seguimiento de las series y películas que has visto y descubrir nuevas.",
+          "Unha aplicación para levar o seguimento das series e películas que viches e descubrir outras novas.",
         tech: ["NextJS", "TypeScript", "Firebase"],
       },
       {
         id: "p7",
         title: "Scuba Diver",
         description:
-          "Un blog y sitio de información para entusiastas del buceo, con registros de inmersión y guías de lugares.",
+          "Un blog e sitio de información para afeccionados ao mergullo, con rexistros de inmersión e guías de lugares.",
         tech: ["React", "Material UI", "Contentful"],
       },
     ],
 
     certificationList: [
       {
-        name: "Desarrollador JavaScript Certificado",
+        name: "Desenvolvedor JavaScript Certificado",
         authority: "Code Academy",
       },
-      { name: "React - La Guía Completa", authority: "Udemy" },
-      { name: "Node.js, Express, MongoDB y más", authority: "Udemy" },
-      { name: "Desarrollo Web Full-Stack", authority: "FreeCodeCamp" },
+      { name: "React - A Guía Completa", authority: "Udemy" },
+      { name: "Node.js, Express, MongoDB e máis", authority: "Udemy" },
+      { name: "Desenvolvemento Web Full-Stack", authority: "FreeCodeCamp" },
     ],
 
     skillList: [

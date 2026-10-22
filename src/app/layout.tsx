@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { ThemeProvider } from '@/contexts/theme-provider';
 import { LanguageProvider } from '@/contexts/language-context';
-import { Toaster } from '@/components/ui/toaster';
 import { LangSetter } from '@/components/lang-setter';
 
 export const metadata: Metadata = {
@@ -36,7 +35,6 @@ export default function RootLayout({
           <LanguageProvider>
             <LangSetter />
             {children}
-            <Toaster />
           </LanguageProvider>
         </ThemeProvider>
       </body>

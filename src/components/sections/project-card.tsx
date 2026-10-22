@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Github, Link as LinkLogo } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import {
   Card,
   CardContent,
@@ -28,21 +27,18 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   const { content } = useLanguage();
-  const projectImage = PlaceHolderImages.find(
-    (p) => p.id === `project-${project.id}`
-  );
   const projectLink = linksData.projects.find((p) => p.id === project.id);
 
   return (
     <Card className="flex h-full flex-col overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50">
-      {projectImage && (
+      {projectLink?.image && (
         <div className="relative h-48 w-full">
           <Image
-            src={projectLink?.image ?? projectImage.imageUrl}
+            src={projectLink.image}
             alt={project.title}
             fill
-            style={{ objectFit: "cover" }}
-            data-ai-hint={projectImage.imageHint}
+            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+            className="object-cover object-top"
           />
         </div>
       )}

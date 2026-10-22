@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import { useLanguage } from '@/contexts/language-context';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 

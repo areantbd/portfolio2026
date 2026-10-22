@@ -98,12 +98,6 @@ export const portfolioData = {
       },
     ],
 
-    certificationList: [
-      { name: "Certified JavaScript Developer", authority: "Code Academy" },
-      { name: "React - The Complete Guide", authority: "Udemy" },
-      { name: "Node.js, Express, MongoDB & More", authority: "Udemy" },
-      { name: "Full-Stack Web Development", authority: "FreeCodeCamp" },
-    ],
 
     skillList: [
       "React",
@@ -221,15 +215,6 @@ export const portfolioData = {
       },
     ],
 
-    certificationList: [
-      {
-        name: "Desarrollador JavaScript Certificado",
-        authority: "Code Academy",
-      },
-      { name: "React - La Guía Completa", authority: "Udemy" },
-      { name: "Node.js, Express, MongoDB y más", authority: "Udemy" },
-      { name: "Desarrollo Web Full-Stack", authority: "FreeCodeCamp" },
-    ],
 
     skillList: [
       "React",
@@ -347,15 +332,6 @@ export const portfolioData = {
       },
     ],
 
-    certificationList: [
-      {
-        name: "Desenvolvedor JavaScript Certificado",
-        authority: "Code Academy",
-      },
-      { name: "React - A Guía Completa", authority: "Udemy" },
-      { name: "Node.js, Express, MongoDB e máis", authority: "Udemy" },
-      { name: "Desenvolvemento Web Full-Stack", authority: "FreeCodeCamp" },
-    ],
 
     skillList: [
       "React",
